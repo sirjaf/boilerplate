@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+backup
+build
+# docs
+.sass-cache
+.idea/code-comments.xml
+.idea/runConfigurations/
+/src/scss/others/_fonts.scss
+.idea/modules.xml
+.idea/web-boilerplate.iml
+.idea/workspace.xml
+.idea/vagrant.xml
+src/scss/others/fonts.scss

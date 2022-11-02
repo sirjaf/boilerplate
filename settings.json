@@ -1,0 +1,52 @@
+{
+    "sitename":"Your New Site",
+    "version": "1.0.3",
+    "description": "Website For your new site",
+    "homepage": "http://yoursite.com",
+    "author": "Yashi <yashilanka@gmail.com>",
+    "license": "ISC",
+    "cssName": "style",
+    "jsName":"userjs",
+    "combineJsFile": true,
+    "secureJS" : false,
+    "sassPath": "./src/scss/",
+    "sassFiles": "*.scss",
+    "jsPath": "./src/js/",
+    "jsFiles": "**/*.js",
+    "imgPath": "./src/img/",
+    "webpagePath" : "./src/web_pages/",
+    "othersPath" : "./src/others/",
+    "src_zip_name": "new-website",
+    "backup_folder_name": "new-website",
+    "build_zip_name": "new-website",
+    "fontPath":"/css/fonts/",
+    "iconfont":{
+        "name":"ModernFramework",
+        "svgPath":"./src//helpers/svg/",
+        "sketchPath": "./src/helpers/sketch/",
+        "fontClassName":"mfb"
+    },
+    "remoteFont": {
+        "enable": false,
+        "name":"Montserrat",
+        "remotePath": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    },
+    "fontFaceSets":[{
+        "mixinName":"l-i",
+        "fontName":"AvertaStd-LightItalic",
+        "fileName":"hinted-subset-AvertaStd-LightItalic",
+        "style":"italic",
+        "weight":300
+    },{
+        "mixinName":"e-t-i",
+        "fontName":"AvertaStd-ExtrathinItalic",
+        "fileName":"hinted-subset-AvertaStd-ExtrathinItalic",
+        "style":"italic",
+        "weight":100
+    }
+],
+"jsComponents":[
+    "node_modules/fastclick/lib/fastclick.js",
+    "node_modules/viewport-units-buggyfill/viewport-units-buggyfill.js"
+]
+}
